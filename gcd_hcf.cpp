@@ -14,9 +14,11 @@ int findGcd(int num1, int num2) {
 
 
 int main() {
-    int n1 = 20, n2 = 15;
-    int gcd = findGcd(n1, n2);
-    cout << "GCD of num1 and num2 is: " << n1 << " , " << n2; 
+    int num1, num2;
+    cout<< "Enter two numbers: ";
+    cin>>num1>>num2;
+    int gcd = findGcd(num1, num2);
+    cout << "GCD of num1 and num2 is: " << num1 << " , " << num2; 
 
     return 0;
 }
