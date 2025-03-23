@@ -4,7 +4,7 @@ using namespace std;
 int countDigits(int num){
     int count = 0;
     while(num > 0){
-        count++;
+        count = count + 1;
         num = num/10;
     }
     return count;
